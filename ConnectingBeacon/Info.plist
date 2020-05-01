@@ -53,6 +53,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>W Muzeum chcemy wykorzystać Twoje położenie.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>W Muzeum chcemy wykorzystać Twoje położenie.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
