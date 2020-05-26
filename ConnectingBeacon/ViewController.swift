@@ -36,7 +36,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func startScanning (){
 //        let moviBeacon = UUID(uuidString: "4F2F0490-C855-39D3-7BA0-80CFA1590BB0")!
-        let uuidiPhone = UUID(uuidString: "5A4BCFCE-174E-4BAC-A814-092E77F6B7E5")!
+        let uuidiPhone = UUID(uuidString: "E2C56DB5-DFFB-48D2-B060-D0F5a71096E0")!
         
 //        let moviBeacons: [String : String] = [
 //            "firstBeacon": "145BAC95-E11E-F77E-3598-55A1DD927BE9",
@@ -46,9 +46,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 //            "fifthBeacon": "4C66B8C-09EF-9520-1309-A6F3DA72BBDF",
 //            "sixthBeacon": "F75D3F7B-Ac1A-4847-EAFB-6E41B8FD0-FAD",
 //            "sevethBeacon": "0004D9CE-2726-3CD4-D1F5-A1160234B597"
-//        ]
-//        let uuid = UUID(uuidString: "48C66B8C-09EF-9520-1309-A6F3DA72BBDF")!
-        let beaconRegion = CLBeaconRegion(proximityUUID: uuidiPhone, major: 123, minor: 456, identifier: "MOVI")
+//        ] 
+        let beaconRegion = CLBeaconRegion(proximityUUID: uuidiPhone, major: 0, minor: 0, identifier: "WellCore")
         
         locationManager.startMonitoring(for: beaconRegion)
         locationManager.startRangingBeacons(in: beaconRegion)
